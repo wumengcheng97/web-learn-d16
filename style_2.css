@@ -1,0 +1,68 @@
+h3{
+    font-size: larger;
+    width: 150px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.title{
+    background-color: rgb(112, 179, 245);
+    width: 8em; 
+    height: 40em;
+    float: left;
+}
+
+.comment{
+    margin-left: 30px;
+}
+
+ul .title{
+    width: 8em; 
+    height:4em;
+    background-color:white;
+    margin-left: 30px;
+}
+
+ul .comment{
+    width: 73em; 
+    height: 4em;
+    float: left;
+}
+
+.tag{
+    font-weight:bold;
+    margin-right: 10px;
+}
+
+.value{
+    margin-right: 30px;
+}
+
+ul{
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    text-align: left;
+    list-style-type:none;
+}
+
+ul li span{
+    margin-bottom: 5px;
+}
+
+ul li .value{
+    margin-bottom: 20px;
+}
+
+.comment .title{
+    display: flex;
+    width: 400px;
+    align-items:center;
+}
+
+button{
+    height: 40px;
+}
